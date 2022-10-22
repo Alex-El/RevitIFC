@@ -1,0 +1,30 @@
+# Do not edit manually.
+*META	VERSION	MINVERSION
+META	2	1
+*GROUP	ID	NAME
+GROUP	2	IFC Properties
+*PARAM	GUID	NAME	DATATYPE	DATACATEGORY	GROUP	VISIBLE	DESCRIPTION	USERMODIFIABLE
+#
+# Parameters for creating classifications 
+PARAM	f440bb0c-7518-406c-9b84-1de93ecb2d67	ClassificationCode	TEXT		2	1		1
+PARAM	3e35c8f6-18a2-4678-92a7-29f9a2f790bf	ClassificationCode(2)	TEXT		2	1		1
+PARAM	9c810054-8b25-4c82-a8f6-a19d4bde001f	ClassificationCode(3)	TEXT		2	1		1
+PARAM	902d8dc8-abda-4046-97eb-ebf0c69ae3b2	ClassificationCode(4)	TEXT		2	1		1
+PARAM	6fb63bec-20f3-4855-9697-a4a087577498	ClassificationCode(5)	TEXT		2	1		1
+PARAM	f6117ce5-e8d3-4b6d-9598-7fd7cc2f729e	ClassificationCode(6)	TEXT		2	1		1
+PARAM	f67f3f99-d04c-4b62-a087-81ab6a1d50c4	ClassificationCode(7)	TEXT		2	1		1
+PARAM	b00af5fc-5f1b-40d6-87de-8902f93f7aab	ClassificationCode(8)	TEXT		2	1		1
+PARAM	88125f36-db46-4998-a16d-605bf75cb83f	ClassificationCode(9)	TEXT		2	1		1
+PARAM	0a531080-2060-4bc6-802b-9230d35ac14d	ClassificationCode(10)	TEXT		2	1		1
+PARAM	26f1bba3-a3cb-4fbc-ba29-d7650f1bcb4b	Assembly Code	TEXT		2	1	Uniformat Classification	1
+PARAM	b623d495-dc76-46cb-ac7b-bfe126728bf2	Assembly Description	TEXT		2	1	Uniformat Classification	1
+#
+# Parameters to support Project Global Positioning
+PARAM	33c16c61-6659-4117-9de9-61841142aa81	ProjectGlobalPositioning.Scale	NUMBER		2	1		1
+PARAM	9ed03820-7425-4d90-868e-2ab0f5319495	ProjectGlobalPositioning.CRSName	TEXT		2	1		1
+PARAM	e4090d66-012c-45fe-9ac9-4cfe51c0dd29	ProjectGlobalPositioning.CRSDescription	TEXT		2	1		1
+PARAM	e66c0e06-0383-480f-854e-950bb0d435f8	ProjectGlobalPositioning.CRSGeodeticDatum	TEXT		2	1		1
+PARAM	bc47059f-e418-41f2-85b9-8b556dacae5e	ProjectGlobalPositioning.CRSVerticalDatum	TEXT		2	1		1
+PARAM	b1d60aea-e267-4ca1-b899-cb06d5eaa9c8	ProjectGlobalPositioning.CRSMapProjection	TEXT		2	1		1
+PARAM	91150f20-dc6c-4691-be1e-fe0ed0dfae6f	ProjectGlobalPositioning.CRSMapZone	TEXT		2	1		1
+#
