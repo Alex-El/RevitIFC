@@ -20,6 +20,7 @@ PARAM	26f1bba3-a3cb-4fbc-ba29-d7650f1bcb4b	Assembly Code	TEXT		2	1	Uniformat Cla
 PARAM	b623d495-dc76-46cb-ac7b-bfe126728bf2	Assembly Description	TEXT		2	1	Uniformat Classification	1
 #
 # Parameters to support Project Global Positioning
+# Parameters for creating classifications 
 PARAM	33c16c61-6659-4117-9de9-61841142aa81	ProjectGlobalPositioning.Scale	NUMBER		2	1		1
 PARAM	9ed03820-7425-4d90-868e-2ab0f5319495	ProjectGlobalPositioning.CRSName	TEXT		2	1		1
 PARAM	e4090d66-012c-45fe-9ac9-4cfe51c0dd29	ProjectGlobalPositioning.CRSDescription	TEXT		2	1		1
