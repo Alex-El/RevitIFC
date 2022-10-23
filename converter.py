@@ -1,5 +1,5 @@
 f_input_name = './IFC Shared Parameters-RevitIFCBuiltIn_ALL.txt'
-f_output_name = '../RevitIFC.wiki/AllParameters.md'
+f_output_name = '../RevitIFC.wiki/All Parameters.md'
 output = []
 
 with open(f_input_name) as f:
